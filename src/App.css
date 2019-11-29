@@ -1,0 +1,42 @@
+ul, li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.todo-list {
+  width: 360px;
+  border: 1px solid #eeeeee;
+  margin: 100px auto;
+  font-size: 12px;
+}
+
+.todo-list-head input {
+  width: calc(100% - 24px);
+  height: 20px;
+  margin: 10px;
+}
+
+.todo-list-main li {
+  line-height: 30px;
+  padding: 0 10px;
+}
+.todo-list-main li button {
+  float: right;
+  width: 40px;
+  height: 21px;
+  margin-top: 4px
+}
+.todo-list-main li:hover, .todo-list-main li button:hover {
+  cursor: pointer;
+}
+.todo-list-main li:hover {
+  background: azure;
+}
+
+.todo-list-foot {
+  border-top: 1px solid #eeeeee;
+  line-height: 30px;
+  padding: 0 10px;
+  margin-top: 10px;
+}
